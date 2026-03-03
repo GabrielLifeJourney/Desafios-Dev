@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cookie&family=Stardos+Stencil&display=swap');
+
+.stardos-stencil-regular {
+  font-family: "Stardos Stencil", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'android' ;
+    src: url(/d010/Estilos/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+:root{
+    --color0: #8dc418;
+    --color1: #92C949;
+    --color2: #6FA61C;
+    --color3: #668C14;
+    --color4: #3C590F;
+    --color5: #ffffff;
+    --color6: #000000;
+
+    --fonte-padrao: Arial.verdana;
+    --fonte-destaque: "Stardos Stencil", system-ui;
+    --fonte-android:'android';
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--color0);
+    font-family: var(--fonte-padrao);
+}
+a.externo::after {
+    content: '\1F517\00A0';
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, var(--color1),var(--color3));
+    min-height: 150px;
+    padding-top: 40px;
+
+}
+
+header > h1 {
+    color: var(--color5);
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.904);
+}
+header > p {
+    color: var(--color5);
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    margin-bottom: 20px;
+    max-width: 600px;
+    font-size: 1.1em;
+    padding: 0 10px 30px 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.904);
+
+}
+nav {
+    background-color: var(--color3);
+    padding: 10px;
+    box-shadow: 0px 7px 9px black;
+}
+nav > a{
+    text-align: left;
+    color: var(--color5);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav a:hover{
+    background-color: var(--color1);
+    color:var(--color4) ;
+    border-radius: 5px;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--color5);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.815);
+    border-radius: 0px 0px 10px 10px;
+}
+main h1{
+    color: var(--color3);
+    font-family: var(--fonte-android);
+}
+main h2{
+    color: var(--color4);
+    font-family: var(--fonte-android);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--color1),transparent);
+    border-radius: 4px;
+    text-indent: 8px;
+    font-weight: normal;
+    padding: 4px;
+
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+main strong{
+    color:var(--color4) ;
+    font-weight: bold;
+}
+main a {
+    background-color: var(--color0);
+    color:var(--color4) ;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px 6px;
+}
+main a:hover {
+    text-decoration: underline;
+    color: var(--color2);
+}
+main img {
+    width: 100%;
+}
+main .pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+main .video{
+    background-color: var(--color4);
+    margin: 0px -20px 30px -20px;
+    padding: 20px; 
+    border-radius: 0.5em;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5% ;
+    left: 5%;
+    width: 90% ;
+    height: 90% ;
+}
+aside {
+    background-color: var(--color1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.815);
+}
+aside h3{
+    background-color: var(--color4);
+    color: var(--color5);
+    padding: 10px;
+    margin: -10px -10px 0 -10px;
+    border-radius: 10px 10px 0 0;
+
+}
+aside ul {
+    list-style: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+
+
+footer {
+    background-color: #3C590F;
+    color: var(--color5);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 8px;
+}
+footer a {
+    color: var(--color5);
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration:underline;
+    color: var(--color1);
+}
+
