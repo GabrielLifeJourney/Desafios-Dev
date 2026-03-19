@@ -1,7 +1,8 @@
 # Desafios-Dev
-Aqui estão meus desafios-resolvidos, com ou sem Professor
+Aqui estão meus desafios-resolvidos, com Professor Gustavo Guanabara
 
 Tenho que Só agradecer esse incrivel conhecimento repassado com esse Network
 obrigado CursoemVideo.
 
-Visualizar Projeto -> <a href="https://gabriellifejourney.github.io/Desafios-Dev/Desafio%20+%20Master/d010/index.html" target="blank">Click aqui para ver o Site.</a>
+Visualizar Projeto Android -> <a href="#" target="blank">Click aqui para ver o Site.</a>
+Visualizar Projeto Cordel -> <a href="#" target="blank">Click aqui para ver o Site.</a>
