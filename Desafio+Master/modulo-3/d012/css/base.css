@@ -4,70 +4,32 @@
     padding: 0;
     margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
 
+.cookie-regular {
+  font-family: "Cookie";
+  font-weight: 150;
+  font-style: normal;
+}
+.neuton-regular {
+  font-family: "Neuton", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+:root {
+    --fonte01:"Neuton";
+    --fonte02:"Cookie";
+}
 
 html, body{
-    font-family: "Neuton-Regular";
+    font-family: var(--fonte01);
     min-height: 100vh;
     background-color: darkgray;
 }
 p{
-    font-family: "Cookie";
-    font-size: 1.5em;
+    font-family: var(--fonte02);
+    font-size: 5vw;
     text-align: justify;
 }
 
-header{
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-header > h1{
-    padding-top: 50px;
-    font-variant: small-caps;
-}
-
-header > p{
-    text-align: center;
-    
-}
-header a, footer a {
-    color:white;
-    text-decoration: none;
-    font-weight: bolder;
-}
-header a:hover, footer a:hover{
-    text-decoration: underline;
-    color: darkgreen;
-}
-section{
-    padding: 10vh 0;
-    line-height: 2em;
-    padding-left: 30px;
-}
-
-.normal {
-    background-color: white;
-    color: black;
-}
-.img{
-    background-color: darkslategray;
-    color: white;
-}
-.img > p {
-    background-color: rgba(0, 0, 0, 0.432);
-    width: 400px;
-}
-
-
-
-
-
-footer{
-    background-color: black;
-    color: white;
-    padding: 10px;
-}
-footer p {
-    text-align: center;
-}
