@@ -1,0 +1,73 @@
+@charset "UTF-8";
+:root{
+    --color1:#262401;
+    --color2:#465902;
+    --color3:#6E8C03;
+    --color4:#A9BF04;
+    --color5:#ABD904;
+    --color6:black;
+    --color7:white;
+}
+/*
+- Até 768px → celular 📱
+- 768px até 992px → tablet 📲
+- 992px até 1200px → desktop 💻
+- Acima de 1200px → TV / telas grandes 📺
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background: url(../assets/image/paisagem.jpg) center center no-repeat
+        fixed;
+        background-size: cover;
+    }
+    section#login{
+        width: 80vw;
+    }
+    section#login div#imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    section#login div#formulario{
+        float: right;
+        width: 60%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+     body{
+        background: url(../assets/image/paisagem.jpg) center center no-repeat
+        fixed;
+        background-size: cover;
+    }
+    section#login{
+        width: 790px;
+    }
+    section#login div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    section#login div#formulario{
+        float: left;
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1200px){
+     body{
+        background: url(../assets/image/lion.jpg) center center no-repeat fixed;
+        background-size: cover;
+     }
+    section#login{
+        width: 790px;
+    }
+        section#login div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    section#login div#formulario{
+        float: left;
+        width: 50%;
+    }
+}
