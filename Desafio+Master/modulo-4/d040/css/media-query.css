@@ -16,6 +16,7 @@
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /*Config Tablet*/
     body{
         background: url(../assets/image/paisagem.jpg) center center no-repeat
         fixed;
@@ -23,6 +24,7 @@
     }
     section#login{
         width: 80vw;
+        height: 340px;
     }
     section#login div#imagem{
         float: left;
@@ -38,13 +40,16 @@
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){
+    /*Config desktop*/
      body{
         background: url(../assets/image/paisagem.jpg) center center no-repeat
         fixed;
         background-size: cover;
     }
+
     section#login{
         width: 790px;
+        height: 400px;
     }
     section#login div#imagem {
         float: right;
@@ -58,14 +63,19 @@
     div#formulario h1{
     font-size: 3em;
     }
+    div#formulario p{
+    margin: 25px 0;
+    }
 }
 @media screen and (min-width: 1200px){
-     body{
+     /*Config tv*/
+    body{
         background: url(../assets/image/lion.jpg) center center no-repeat fixed;
         background-size: cover;
      }
     section#login{
         width: 790px;
+        height: 450px;
     }
         section#login div#imagem {
         float: left;
@@ -78,5 +88,8 @@
     }
     div#formulario h1{
     font-size: 3em;
+    }
+    div#formulario p{
+    margin: 25px 0;
     }
 }
