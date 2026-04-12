@@ -33,6 +33,9 @@
         float: right;
         width: 60%;
     }
+    div#formulario h1{
+    font-size: 2em;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){
      body{
@@ -52,6 +55,9 @@
         float: left;
         width: 50%;
     }
+    div#formulario h1{
+    font-size: 3em;
+    }
 }
 @media screen and (min-width: 1200px){
      body{
@@ -62,12 +68,15 @@
         width: 790px;
     }
         section#login div#imagem {
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
     }
     section#login div#formulario{
-        float: left;
+        float: right;
         width: 50%;
+    }
+    div#formulario h1{
+    font-size: 3em;
     }
 }
